@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./reset.css);
+
+:root{
+
+    --cor-de-fundo:#ff8800;
+    --cor-de-fundo-secundaria:#ffffff;
+    --cor-das-letras:#000000;
+
+}
+
+body{
+
+    background-color: var(--cor-de-fundo);
+    height: 100vh;
+    box-sizing: border-box;
+    color:var(--cor-das-letras) ;
+}
+

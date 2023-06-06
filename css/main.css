@@ -1,0 +1,29 @@
+
+
+.corpo__apresentacao__titulo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    font-family: var(--font-padrao);
+    font-size: 4em;
+
+    
+  
+}
+
+.corpo__apresentacao__subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    color: var(--cor-de-fundo-secundaria);
+    margin-top: 0.5em;
+    border-bottom: 4px solid var(--cor-de-fundo-secundaria);
+
+    padding-bottom: 5em;
+    
+}
