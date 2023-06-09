@@ -1,0 +1,16 @@
+.troncoimagens{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    padding-top: 5em;
+    gap: 3em;
+    border-top: 4px solid var(--cor-de-fundo-secundaria);
+}
+
+.troncoimagens__imagem{
+
+    width: 10em;
+}
