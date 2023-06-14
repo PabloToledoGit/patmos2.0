@@ -49,12 +49,18 @@
 .troncoescala__card__paragrafo{
 
     font-family: var(--font-titulo);
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .troncoescala__card__imagem{
 
     width: 10em;
     margin-bottom: 3.5em;
+    
 }
+
+
+
+    
+
 
