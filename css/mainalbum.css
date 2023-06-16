@@ -1,16 +1,26 @@
 .troncoimagens{
 
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 10em;
     padding-top: 5em;
     gap: 3em;
-    border-top: 4px solid var(--cor-de-fundo-secundaria);
+    border-top: 4px solid var(--cor-das-letras);
+    
 }
 
 .troncoimagens__imagem{
 
     width: 10em;
 }
+
+.troncoimagens__nome{
+
+    
+    font-size: 1.5em;
+    font-family: var(--font-padrao);
+}
+
