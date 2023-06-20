@@ -13,14 +13,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top:6em ;
+    margin-top:3em ;
     border: 3px solid var(--cor-de-fundo-secundaria);
     width: 20em;
-    margin-left: 1.8em;
+    margin-left: 2em;
     gap: 2em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+
+
 }
 
 .rodape__container__titulo{

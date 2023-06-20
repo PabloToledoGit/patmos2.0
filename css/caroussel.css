@@ -1,5 +1,14 @@
 .carousel{
 
     margin-left: 0.5em;
-    margin-top: 5em;
+    margin-top: 3em;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+    width: 23em;
+    margin-left: 0.8em;
+
+}
+
+.carousel-imagem{
+    width: 23em;
+
 }

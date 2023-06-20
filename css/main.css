@@ -8,6 +8,8 @@
     --cor-das-letras:#000000;
 }
 
+
+
 .corpo__apresentacao__titulo{
 
     display: flex;
@@ -51,7 +53,7 @@
     font-family: var(--font-titulo);
     font-size: 2.1em;
     font-weight: 700;
-    margin-left: 0.5em;
+    margin-left: 0.6em;
     padding-left: 1em;
 }
 
@@ -62,8 +64,15 @@
     display: flex;
     flex-wrap: wrap;
     width: 20em;
-    margin-left:1em ;
+    margin-left:1.5em ;
     border-left: 2px solid var(--cor-de-fundo-secundaria);
     border-right: 2px solid var(--cor-de-fundo-secundaria);
     padding-left: 1em;
 }
+
+.iframe{
+
+    margin-top: 2.5em;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
