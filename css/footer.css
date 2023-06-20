@@ -1,0 +1,66 @@
+:root{
+
+    --font-padrao: 'Kanit', sans-serif;
+    --font-titulo: 'Caveat', cursive;
+
+    --cor-de-fundo:#ff8800;
+    --cor-de-fundo-secundaria:#ffffff;
+    --cor-das-letras:#000000;
+}
+
+.rodape{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:6em ;
+    border: 3px solid var(--cor-de-fundo-secundaria);
+    width: 20em;
+    margin-left: 2.3em;
+    gap: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+.rodape__container__titulo{
+
+    font-family:var(--font-titulo) ;
+    font-size: 2em;
+    color: var(--cor-das-letras);
+    font-weight: 700;
+    margin-top: 1em;
+
+}
+
+.rodape__container__links{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.rodape__container__links__botao{
+
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-das-letras);
+    font-family: var(--font-titulo);
+    font-size: 1.5em;
+    border: 2px solid var(--cor-de-fundo-secundaria);
+    padding: 0.5em;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    justify-content: center;
+    gap: 0.5em;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.rodape__container__links__icon{
+
+    width: 1em;
+}
