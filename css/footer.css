@@ -67,3 +67,26 @@
 
     width: 1em;
 }
+
+.creditos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:2em;
+    padding-bottom: 2em;
+    background-color: var(--cor-de-fundo-secundaria);
+    color: var(--cor-das-letras);
+    font-family: var(--font-titulo);
+    font-size: 1.5em;
+    margin-top: 2em;
+    border-top: 3px solid var(--cor-das-letras);
+    border-bottom: 3px solid var(--cor-das-letras);
+}
+
+.pablo{
+
+    color: var(--cor-de-fundo);
+    border: 1px solid var(--cor-de-fundo);
+    padding: 4px 8px;
+    border-radius: 0.5em;
+}
